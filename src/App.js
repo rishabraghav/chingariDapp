@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flexbox height">
+      <form typeof='submit' className='flexbox column'>
+        <input className='margin' style={{height:"20px"}} name='username' placeholder='username'/>
+        <input className='margin' style={{height:"20px"}} name="password" placeholder='password'/>
+        <div className='buttons margin'>
+          <button className='margin' style={{height:"30px", width:"80px"}}>Login</button>
+          <button className='margin' style={{height:"30px", width:"80px"}} >Register</button>
+        </div>
+      </form>
     </div>
   );
 }
