@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# chingariDapp
+It's an attempt to make a Dapp on ethereum, where:
+Users can watch, Like, Share, Comment, Tip a Video
+Users can Upload video content, which will be Tokenised with Videos stored in any Decentralized storage, Likes, Shares, Views, Comment Tipping History,  
+Users can Buy Tokenised videos with Regular bidding mechanism as used in any NFT Marketplace, Should also be available for secondary trades.
+Video NFT Attributes should be categories of video (Comedy, Dance, Music, Travel,Lipsync etc),Video duration, demographic & language & These attributes can be used by viewers to filter videos Kind of similar to creator cuts 
+Video Creators should have an optional feature to add Utility to their Tokenised video. It can be a Revenue sharing with the holders earned through tips, Likes, Share, Views & Comment. Exclusive video rights etc. which can be done through Whitelisting the Holders.
+>>>>>>> 881b65d0d023521faaa438f31cdf2bd750dd8e1a
